@@ -4,7 +4,7 @@ import { ActionType } from "../actions-types";
 
 const initialState = 0
 
-const reducer = (state: number = initialState, action: Action) => {
+const counterReducer = (state: number = initialState, action: Action) => {
     switch (action.type) {
         case ActionType.INCREMENT:
             return state + action.payload;
@@ -17,4 +17,4 @@ const reducer = (state: number = initialState, action: Action) => {
     }
 }
 
-export default reducer; 
+export default counterReducer; 
