@@ -21,7 +21,7 @@ export const decrementNumber = (number: number) => {
     }
 }
 
-export const setupState = (number: number) => {
+export const setupState = () => {
     return (dispatch: Dispatch<Action>) => {
         dispatch({
             type: ActionType.SETUP,
