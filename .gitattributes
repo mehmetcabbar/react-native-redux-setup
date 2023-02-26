@@ -1,7 +1,9 @@
 *.css linguist-detectable=false
 *.js linguist-detectable=true
 *.java linguist-detectable=false
+*.c++ linguist-detectable=false
 *.cpp linguist-detectable=false
+*.c linguist-detectable=false
 *.ts linguist-detectable=true
 *.c linguist-detectable=false
 *.rb linguist-detectable=false
